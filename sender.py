@@ -59,7 +59,7 @@ def encrypt_message(message, receiver_public_key_path):
 # Main function to execute the sender's process.
 if __name__ == "__main__":
     # Define the plaintext message to be sent.
-    message = b"Hello, this is a secure message."
+    message = b"According to all known laws of aviation, there is no way a bee should be able to fly."
 
     # Call the encryption function with the message and receiver's public key file.
     encrypt_message(message, "public_key.pem")
